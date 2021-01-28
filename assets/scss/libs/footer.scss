@@ -1,0 +1,25 @@
+footer{
+  position: relative;
+  .up{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-align: right;
+    transform: translate(-77%, -7px);
+    padding: 0 0 0 16px;
+
+    i{
+      position: absolute;
+      left: 0;
+      &:before{
+        color: #282828;
+      }
+    }
+    p{
+      font-family: 'Oswald-Light';
+      color: #282828;
+      font-size: 16px;
+      text-transform: none;
+    }
+  }
+}

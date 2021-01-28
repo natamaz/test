@@ -1,0 +1,70 @@
+@import "libs/fonts";
+@import "libs/fontello";
+@import 'libs/slick';
+@import "libs/header";
+@import "libs/footer";
+body {
+    position: relative;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+}
+
+html {
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PTSerif-Regular';
+    outline: none;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #282828;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+@media (min-width: 768px){
+    .container {
+        width: 648px;
+        padding: 0;
+
+    }
+}
+@media (min-width: 1024px){
+    .container {
+        width: 864px;
+    }
+}
+@media (min-width: 1280px){
+    .container {
+        width: 1080px;
+    }
+}
+@media (min-width: 1448px) {
+    .container {
+        width: 1132px;
+    }
+}
